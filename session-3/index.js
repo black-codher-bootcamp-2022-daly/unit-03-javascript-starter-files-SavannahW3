@@ -23,3 +23,13 @@ function conversation () {
 }
 
 conversation ();
+
+
+
+
+function futureAge (name, age) {
+const answer = age + 5;
+return "Hi " + name + " You will be " + answer + " in 5 years";
+}
+
+console.log (futureAge ("John", 25));
