@@ -11,3 +11,15 @@ a=20;
 console.log(a+b); //outcome is 30
 
 console.log(c);// outcome is 30
+
+function sayHey (){
+    console.log ("Hey!")
+}
+
+function conversation () {
+    sayHey();
+    console.log ("How are you?");
+    console.log ("Goodbye");
+}
+
+conversation ();
